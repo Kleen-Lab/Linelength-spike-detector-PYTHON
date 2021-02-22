@@ -11,7 +11,7 @@ and an array of the electrodes involved in each spike event (n_spikes x n_elecs)
 
 To install the package and have a copy of the code to edit locally, navigate to where you would like to store the package code in your terminal. Clone the package  and then install:
 ```
-git clone https://github.com/ChangLabUcsf/linelength_event_detector.git
+git clone https://github.com/Kleen-Lab/linelength_event_detector.git
 pip install -e linelength_event_detector
 ```
 
