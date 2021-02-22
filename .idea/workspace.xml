@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="be5d7c66-75ee-4d0d-85b7-839465ce478e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oqdB7aGEXyPYKG8SaGFzBU98Vy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python tests.pytest in tests.py">
+    <configuration name="pytest for tests.test_lleventdetector_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="linelength_event_detector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_lleventdetector_1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.test_lleventdetector_2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="linelength_event_detector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_lleventdetector_2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.test_lleventdetector_3" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="linelength_event_detector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_lleventdetector_3&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.test_lleventdetector_4" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="linelength_event_detector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_lleventdetector_4&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in tests.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="linelength_event_detector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/tests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest in tests.py" />
+        <item itemvalue="Python tests.pytest for tests.test_lleventdetector_1" />
+        <item itemvalue="Python tests.pytest for tests.test_lleventdetector_2" />
+        <item itemvalue="Python tests.pytest for tests.test_lleventdetector_3" />
+        <item itemvalue="Python tests.pytest for tests.test_lleventdetector_4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be5d7c66-75ee-4d0d-85b7-839465ce478e" name="Default Changelist" comment="" />
+      <created>1614017917886</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614017917886</updated>
+    </task>
+    <task id="LOCAL-00001" summary="edited tests and added config files">
+      <created>1614028195073</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614028195073</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="edited tests and added config files" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited tests and added config files" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="305" y="44" key="CommitChangelistDialog2" timestamp="1614028194823">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="305" y="44" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1614028194823" />
+    <state width="709" height="245" key="GridCell.Tab.0.bottom" timestamp="1614018958663">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="709" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614018958663" />
+    <state width="709" height="245" key="GridCell.Tab.0.center" timestamp="1614018958660">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="709" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1614018958660" />
+    <state width="709" height="245" key="GridCell.Tab.0.left" timestamp="1614018958659">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="709" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1614018958659" />
+    <state width="709" height="245" key="GridCell.Tab.0.right" timestamp="1614018958662">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="709" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1614018958662" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1614018294167">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1614018294167" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1614028201312">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1614028201312" />
+  </component>
+</project>
