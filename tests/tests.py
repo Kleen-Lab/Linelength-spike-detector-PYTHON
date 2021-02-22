@@ -63,9 +63,9 @@ def test_lltransform_3d():
 def test_lleventdetector_1(example_eeg_data):
     # should return correct time stamps for EON/EOFF
     expected_ts = np.column_stack(([1344, 4156], [1351, 4180]))
-    L = example_eeg_data[2]
+    l = example_eeg_data[2]
     sfx = example_eeg_data[1]
-    actual = lleventdetector(L, sfx, 99.9, 3)
+    actual = lleventdetector(l, sfx, 99.9, 3)
     if np.size(actual[0]) == np.size(expected_ts):
         assert [a == b for a, b in zip(list(actual[0]), list(expected_ts))]
     else:
@@ -75,19 +75,19 @@ def test_lleventdetector_1(example_eeg_data):
 def test_lleventdetector_2(example_eeg_data):
     # should return correct channels for EON/EOFF
     expected_ch = ['3,', '3,']
-    L = example_eeg_data[2]
+    l = example_eeg_data[2]
     sfx = example_eeg_data[1]
-    actual = lleventdetector(L, sfx, 99.9, 3)
+    actual = lleventdetector(l, sfx, 99.9, 3)
     assert actual[1] == expected_ch
 
 
 def test_lleventdetector_3(example_eeg_data):
     # tests edge case 1 for time stamps
-    L = example_eeg_data[2]
-    L[4][0:4] = 40000
+    l = example_eeg_data[2]
+    l[4][0:4] = 40000
     sfx = example_eeg_data[1]
     expected_ts = np.column_stack([[10, 13], [1344, 1355], [4159, 4180]])
-    actual = lleventdetector(L, sfx, 99.9, 3)
+    actual = lleventdetector(l, sfx, 99.9, 3)
     if np.size(actual[0]) == np.size(expected_ts):
         assert [a == b for a, b in zip(list(actual[0]), list(expected_ts))]
     else:
@@ -96,21 +96,21 @@ def test_lleventdetector_3(example_eeg_data):
 
 def test_lleventdetector_4(example_eeg_data):
     # tests edge case 1 for channels
-    L = example_eeg_data[2]
-    L[4][0:4] = 40000
+    l = example_eeg_data[2]
+    l[4][0:4] = 40000
     sfx = example_eeg_data[1]
-    actual = lleventdetector(L, sfx, 99.9, 3)
+    actual = lleventdetector(l, sfx, 99.9, 3)
     expected_ch = ['4,', '3,', '3,']
     assert actual[1] == expected_ch
 
 
 def test_lleventdetector_5(example_eeg_data):
     # tests edge case 2 for time stamps
-    L = example_eeg_data[2]
-    end = len(L[0])
-    L[1][end - 4:end] = 40000
+    l = example_eeg_data[2]
+    end = len(l[0])
+    l[1][end - 4:end] = 40000
     sfx = example_eeg_data[1]
-    actual = lleventdetector(L, sfx, 99.9, 3)
+    actual = lleventdetector(l, sfx, 99.9, 3)
     expected_ts = np.column_stack([[1344., 1350.], [4159., 4180.], [5126., 5130.]])
     if np.size(actual[0]) == np.size(expected_ts):
         assert [a == b for a, b in zip(list(actual[0]), list(expected_ts))]
@@ -120,21 +120,21 @@ def test_lleventdetector_5(example_eeg_data):
 
 def test_lleventdetector_6(example_eeg_data):
     # tests edge case 2 for channels
-    L = example_eeg_data[2]
-    end = len(L[0])
-    L[1][end - 4:end] = 40000
+    l = example_eeg_data[2]
+    end = len(l[0])
+    l[1][end - 4:end] = 40000
     sfx = example_eeg_data[1]
-    actual = lleventdetector(L, sfx, 99.9, 3)
+    actual = lleventdetector(l, sfx, 99.9, 3)
     expected_ch = ['3,', '3,', '1,']
     assert actual[1] == expected_ch
 
 
 def test_lleventdetector_8(example_eeg_data):
     # tests deleting short events time stamps
-    L = example_eeg_data[2]
+    l = example_eeg_data[2]
     sfx = example_eeg_data[1]
     minimum_event_time = 16
-    actual = lleventdetector(L, sfx, 99.9, minimum_event_time)
+    actual = lleventdetector(l, sfx, 99.9, minimum_event_time)
     expected_ts = np.column_stack([[4156, 4180]])
     if np.size(actual[0]) == np.size(expected_ts):
         assert [a == b for a, b in zip(list(actual[0]), list(expected_ts))]
@@ -144,32 +144,32 @@ def test_lleventdetector_8(example_eeg_data):
 
 def test_lleventdetector_9(example_eeg_data):
     # tests deleting short events channels
-    L = example_eeg_data[2]
+    l = example_eeg_data[2]
     sfx = example_eeg_data[1]
     minimum_event_time = 16
-    actual = lleventdetector(L, sfx, 99.9, minimum_event_time)
+    actual = lleventdetector(l, sfx, 99.9, minimum_event_time)
     expected_ch = ['3,']
     assert expected_ch == actual[1]
 
 
 def test_lleventdetector_10(example_eeg_data):
     # test that error is raised when EON and EOFF lengths are different
-    L = example_eeg_data[2]
-    end = len(L[0])
+    l = example_eeg_data[2]
+    end = len(l[0])
     sfx = example_eeg_data[1]
-    L[1][end-1] = 40000
+    l[1][end-1] = 40000
     minimum_event_time = 1
     with pytest.raises(RuntimeError, match='eON and eOFF are different lengths, check your code.'):
-        actual = lleventdetector(L, sfx, 99.9, minimum_event_time)
+        actual = lleventdetector(l, sfx, 99.9, minimum_event_time)
         raise RuntimeError('eON and eOFF are different lengths, check your code.')
 
 def test_lleventdetector_11(example_eeg_data):
     # tests that ech merges events correctly
-    L = example_eeg_data[2]
-    end = len(L[0])
-    L[1][end - 4:end] = 40000
-    L[2][end-3] = 40000
+    l = example_eeg_data[2]
+    end = len(l[0])
+    l[1][end - 4:end] = 40000
+    l[2][end-3] = 40000
     sfx = example_eeg_data[1]
-    actual = lleventdetector(L, sfx, 99.9, 3)
+    actual = lleventdetector(l, sfx, 99.9, 3)
     expected_ch = ['3,', '3,', '1,2,']
     assert expected_ch == actual[1]
