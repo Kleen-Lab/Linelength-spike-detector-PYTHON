@@ -1,7 +1,0 @@
-README.md
-setup.py
-linelength_event_detector.egg-info/PKG-INFO
-linelength_event_detector.egg-info/SOURCES.txt
-linelength_event_detector.egg-info/dependency_links.txt
-linelength_event_detector.egg-info/requires.txt
-linelength_event_detector.egg-info/top_level.txt
