@@ -1,7 +1,7 @@
 import numpy as np
 
-def lleventdetector(L, sfx, prc, mel):
-    """Detects events in data and identifies start/stop times and channels involved.
+def llspikedetector(L, sfx, prc, mel):
+    """Detects spikes in data and identifies start/stop times and channels involved.
 
         Takes 1d/2d list (L) of line-length transformed data and finds segments
         surpassing a percentile threshold. Returns start & stop times of detected
