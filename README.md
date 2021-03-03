@@ -7,6 +7,8 @@ The `Linelength-spike-detector-PYTHON` Python package. This package contains cod
 and an array of the electrodes involved in each spike event (n_spikes x n_elecs), with them being labeled 1 for active, 0 for not.
 - Note on terminology: words "spike" and "event" are used interchangeably in function/variable names for the purpose of this code. 
 
+Based on Estellar et al 2001, DOI 10.1109/IEMBS.2001.1020545
+
 ## Package setup.
 ### 1. Install required packages
 
